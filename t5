@@ -1,0 +1,102 @@
+# saatcimboodrom
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>                                                                                                                                              
+  </header>
+  <main class="product-grid">
+    <div class="product-card">
+      <img src="images/inter-mavi-saat.jpg" alt="Inter Mavi Saat">
+      <h2>Ruge Inter Mavi Quartz</h2>
+      <p>₺1.250</p>
+      <button>Sepete Ekle</button>
+    </div>
+    <div class="product-card">
+      <img src="images/siyah-klasik.jpg" alt="Siyah Klasik Saat">
+      <h2>Klasik Siyah Deri</h2>
+      <p>₺1.800</p>
+      <button>Sepete Ekle</button>
+    </div>
+    <!
+  </main>
+  <footer>
+    <p>© 2025 Saat Dünyası</p>
+  </footer>
+</html>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.product-card button:hover {
+  background-color: #005fa3;
+}
